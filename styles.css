@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://img4.goodfon.ru/original/1920x1080/d/36/derevo-coffee-kofe.jpg'); /* Путь к изображению фона */
+    background-repeat: no-repeat; /* Отключение повторения изображения */
+    background-size: cover; /* Масштабирование изображения фона */
+    /* Дополнительные свойства фона, если необходимо */
+}
+.salam {
+    font-family: 'Anton', sans-serif;
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(248, 109, 29);
+
+}
+
+
+
+
+
+
+.zerno {
+    
+    position:absolute;
+	left:1200px;
+	top:190px;
+    width: 500px;
+}
+.chashka {
+    background-image: url("https://www.rentaphoto.ru/upload/resize_cache/iblock/b21/5h4s80sz12fd76rrg2sl2uyb2gzx77cl/450_450_1/fc2b84da-b887-11eb-4e9b-78542e6ffaa2_9ba2158a-ba2a-11eb-4e9b-78542e6ffaa2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 400px;
+  transform: rotate(45deg);
+    position:absolute;
+	top: 200px;
+    width: 700px;
+}
+
+.moving-text-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px; /* Высота контейнера */
+}
+
+.moving-text {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    white-space: nowrap;
+    top: 25px;
+    animation: moveText 5s linear infinite; /* Длительность и тип анимации */
+}
+
+@keyframes moveText {
+    0% {
+        left: 69%; /* Начальная позиция (с правой стороны) */
+    }
+    100% {
+        left: 20%; /* Конечная позевиция (ой стс лороны) */
+    }
+}
